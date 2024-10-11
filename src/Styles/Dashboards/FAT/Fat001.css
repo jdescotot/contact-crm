@@ -9,7 +9,7 @@
   margin: 0 auto;
   overflow-y: auto;
   max-height: 90vh;
-  box-sizing: border-box;
+  box-sizing: border-box;/*comentario de prueba*/
   position: relative;
 }
 
