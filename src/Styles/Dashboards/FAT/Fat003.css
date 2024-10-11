@@ -1,0 +1,114 @@
+/* src/styles/Dashboard/FAT003.css */
+.fat003-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    overflow-y: auto;
+    max-height: 90vh;
+    box-sizing: border-box;
+}
+
+.fat003-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.fat003-container h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: left;
+}
+
+.fat003-container .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.fat003-container .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.fat003-container .input-group input,
+.fat003-container .input-group select,
+.fat003-container .input-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.fat003-container .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.fat003-container .checkbox-group label {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fat003-container .checkbox-group input {
+    margin-right: 5px;
+}
+
+.fat003-container .submit-button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #f4d03f, #f5b041);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.fat003-container .submit-button:hover {
+    background: linear-gradient(to right, #f5b041, #f4d03f);
+}
+
+/* Estilo para el texto introductorio */
+.intro-text {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo para la sección de Análisis y Resultados */
+.fat003-container .analysis-results {
+    margin-top: 30px;
+}
+
+.fat003-container .analysis-results .input-group {
+    margin-bottom: 20px;
+}
+
+.fat003-container .analysis-results .input-group label {
+    font-weight: bold;
+}
+
+.fat003-container .analysis-results input[type="text"] {
+    width: 48%;
+    margin-right: 4%;
+    display: inline-block;
+}
+
+.fat003-container .analysis-results input[type="text"]:last-child {
+    margin-right: 0;
+}

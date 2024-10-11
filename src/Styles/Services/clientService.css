@@ -1,0 +1,60 @@
+/* src/styles/Dashboard/Dashboard.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f4d03f, #f5b041);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 600px;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  background: #f5b041;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 150px;
+}
+
+.dashboard-links {
+  margin-top: 20px;
+}
+
+.dashboard-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #f4d03f, #f5b041);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.dashboard-link:hover {
+  background: linear-gradient(to right, #f5b041, #f4d03f);
+}

@@ -1,0 +1,74 @@
+/* src/styles/Dashboard/FAT001.css */
+.fat001-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  max-height: 90vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.fat001-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.fat001-container h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.fat001-container .input-group {
+  margin-bottom: 15px;
+}
+
+.fat001-container .input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.fat001-container .input-group input,
+.fat001-container .input-group select,
+.fat001-container .input-group textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.fat001-container .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fat001-container .checkbox-group label {
+  margin-right: 15px;
+}
+
+.fat001-container .submit-button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #f4d03f, #f5b041);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    bottom: 0;
+    margin-top: 20px;
+  }
+
+.fat001-container .submit-button:hover {
+  background: linear-gradient(to right, #f5b041, #f4d03f);
+}
